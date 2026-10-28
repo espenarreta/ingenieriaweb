@@ -1,0 +1,19 @@
+body{
+    background-color: blue;
+}
+header{
+    background-color: black;
+    color: aliceblue;
+}
+
+/* Llamada de estilos a clase*/
+header .cabeza{
+    font-size: 30px;
+    color: aliceblue;
+    font-family: Arial;
+}
+
+/* Llamada de estilos a id*/
+#principal{
+    background: red;
+}

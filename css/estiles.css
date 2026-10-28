@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+/*----------Estilos de la cabecera-----------*/
+header, mainHeader section.mainHeader {
+    width: 80%;
+    background: #1e293b;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+header.mainHeader h2 {
+    padding: 30px;
+    width: 30%;
+    display: inline-block;
+    color: #7dd3fc;
+}
+
+header.mainHeader nav {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+header.mainHeader nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0 10px;
+}
+
+header.mainHeader nav a:hover {
+    background: #38bdf8;
+    color: #0f172a;
+    border-radius: 15px;
+    padding: 10px;
+}
+/*----------Fin Estilos de la cabecera-----------*/
+
+/*----------Estilos del slider-----------*/
+section.mainSlider {
+    background-color: #0ea5e9;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 20px auto;
+    
+}
+
+section.mainSlider h2 {
+    padding: 130px 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 20px;
+}
+/*----------Fin Estilos de la slider-----------*/
+
+/*----------Estilos de la noticia-----------*/
+section.news {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+section.news .newsItem {
+    width: 30%;
+    display: inline-block;
+    background-color: #e0f2fe;
+    margin: 15px;
+    padding: 10px 0;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+/*----------Fin Estilos de la noticia-----------*/
+
+/*----------Estilos de la footer-----------*/
+footer.mainFooter {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px 0;
+    background: #1e293b;
+    color: #cbd5e1;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 14px;
+}
+/*----------Fin Estilos de la footer-----------*/
+
+
+
+/*----------Estilos de login-----------*/
+
+.bodylogin {
+    background: url("../img/fondologin.jpg") center / cover no-repeat fixed;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 420px;
+    box-sizing: border-box;
+    margin: 50px auto;
+    padding: 35px 30px;
+    background: rgba(15, 30, 60, 0.35);
+    backdrop-filter: blur(14px) saturate(140%);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 40px;
+    background: rgba(15, 30, 60, 0.35);
+    backdrop-filter: blur(14px) saturate(140%);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.input-box input::placeholder {
+    color: #999999;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999999;
+}
+
+.remenber-forgot {
+    margin-bottom: 20px;
+}
+
+.remenber-forgot label {
+    color: #ffffff;
+}
+
+.remenber-forgot a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.remenber-forgot a:hover {
+    text-decoration: none;
+}
+
+.wrapper input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #0ea5e9;
+    color: #ffffff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.wrapper input[type="submit"]:hover {
+    background-color: #0d8aaf;
+}
+
+.wrapper h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.register-link {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.register-link p {
+    color: #ffffff;
+    text-align: center;
+}
+
+.register-link a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+/*----------Fin Estilos de login-----------*/
