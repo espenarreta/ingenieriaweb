@@ -167,10 +167,12 @@ footer.mainFooter {
     cursor: pointer;
     font-size: 16px;
     font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .wrapper input[type="submit"]:hover {
     background-color: #0d8aaf;
+    transform: scale(1.03);
 }
 
 .wrapper h1 {
@@ -197,3 +199,18 @@ footer.mainFooter {
 }
 
 /*----------Fin Estilos de login-----------*/
+
+
+/*---------- Media Query 800px ----------*/
+@media screen and (max-width: 800px) {
+    .bodylogin {
+        background: url("../img/fondo2.jpg") center / cover no-repeat fixed;
+    }
+}
+
+/*---------- Media Query 450px ----------*/
+@media screen and (max-width: 450px) {
+    .bodylogin {
+        background: #1e293b;
+    }
+}
